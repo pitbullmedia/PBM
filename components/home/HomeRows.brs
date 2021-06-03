@@ -63,6 +63,7 @@ sub onLibrariesLoaded()
   continueRow.title = tr("Continue Watching")
   nextUpRow = content.CreateChild("HomeRow")
   nextUpRow.title = tr("Next Up ")
+  comingRow.title = tr("Coming Soon")
   ''helpsize
   sizeArray = [
     [485, 331], ' My Media
