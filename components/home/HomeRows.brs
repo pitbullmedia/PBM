@@ -59,12 +59,13 @@ sub onLibrariesLoaded()
   content = CreateObject("roSGNode", "ContentNode")
   mediaRow = content.CreateChild("HomeRow")
   mediaRow.title = tr("PitBull Media")
+  'comingRow = content.CreateChild("HomeRow")
+  'comingRow.title = tr("Coming Soon")
   continueRow = content.CreateChild("HomeRow")
   continueRow.title = tr("Continue Watching")
   nextUpRow = content.CreateChild("HomeRow")
   nextUpRow.title = tr("Next Up ")
-  comingRow = content.CreateChile("HomeRow")
-  comingRow.title = tr("Coming Soon")
+
   ''helpsize
   sizeArray = [
     [485, 331], ' My Media
