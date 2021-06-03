@@ -2,9 +2,9 @@
 <component name="JFOverhang" extends="Group">
   <children>
     <Poster id="overlayLogo"
-       uri=""
+       uri="pkg:/images/logo.png"
       translation="[70, 53]"
-      width="270" height="72" />
+      width="270" height="85" />
     <LayoutGroup id="overlayLeftGroup" layoutDirection="horiz" translation="[375, 53]" itemSpacings="50" >
       <Rectangle
         id="overlayLeftSeperator"
