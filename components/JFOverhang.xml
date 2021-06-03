@@ -5,7 +5,7 @@
       uri="pkg:/images/logo.png"
       translation="[70, 53]"
       width="270" height="72" />
-    <LayoutGroup id="overlayLeftGroup" layoutDirection="horiz" translation="[375, 53]" itemSpacings="30" >
+    <LayoutGroup id="overlayLeftGroup" layoutDirection="horiz" translation="[375, 53]" itemSpacings="50" >
       <Rectangle
         id="overlayLeftSeperator"
         color="#666666"
