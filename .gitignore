@@ -1,0 +1,22 @@
+*.svg
+jellyfin-roku.zip
+source/globals.brs
+.env
+
+###BrightScript specific
+dist/apps
+out/
+
+#NPM modules
+node_modules/
+
+#Rooibos generated
+rooibosFunctionMap.brs
+*/buildinfo.brs
+.vscode
+logs
+
+#Eclipse
+.buildpath
+.project
+.settings

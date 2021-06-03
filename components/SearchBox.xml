@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SearchBox" extends="LayoutGroup">
+  <children>
+    <Label text="Search" />
+    <TextEditBox id="search-input" width="800" maxTextLength="75" />
+  </children>
+  <interface>
+    <field id="search_value" type="string" alwaysNotify="true" />
+  </interface>
+  <script type="text/brightscript" uri="SearchBox.brs" />
+</component>

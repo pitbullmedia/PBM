@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="JFVideo" extends="Video">
+  <interface>
+    <field id="backPressed" type="boolean" alwaysNotify="true" />
+    <field id="selectSubtitlePressed" type="boolean" alwaysNotify="true" />
+    <field id="PlaySessionId" type="string" />
+    <field id="Subtitles" type="array" />
+    <field id="SelectedSubtitle" type="integer" />
+    <field id="captionMode" type="string" />
+    <field id="transcodeParams" type="assocarray" />
+    <field id="container" type="string" />
+    <field id="directPlaySupported" type="boolean" />
+    <field id="decodeAudioSupported" type="boolean" />
+    <field id="isTranscoded" type="boolean" />
+    <field id="systemOverlay" type="boolean" value="false" />
+    <field id="showID" type="string" />
+  </interface>
+  <script type="text/brightscript" uri="JFVideo.brs" />
+  <children>
+    <timer id="playbackTimer" repeat="true" duration="30" />
+    <timer id="bufferCheckTimer" repeat="true" duration="10" />
+  </children>
+</component>
