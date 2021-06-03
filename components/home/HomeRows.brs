@@ -63,8 +63,8 @@ sub onLibrariesLoaded()
   'comingRow.title = tr("Coming Soon")
   continueRow = content.CreateChild("HomeRow")
   continueRow.title = tr("Continue Watching")
-  nextUpRow = content.CreateChild("HomeRow")
-  nextUpRow.title = tr("Next Up ")
+ ' nextUpRow = content.CreateChild("HomeRow")
+  'nextUpRow.title = tr("Next Up ")
 
   ''helpsize
   sizeArray = [
